@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <Button
+    android:id="@+id/btn_save_array"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="btn_save"
+    android:onClick="btn_save_array" />
+
+    <Button
+        android:id="@+id/btn_save_object"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_save"
+        android:onClick="btn_save_object" />
+
+    <Button
+        android:id="@+id/btn_goto_second"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Show current Date"
+        android:onClick="btn_goto_second" />
+</LinearLayout>
